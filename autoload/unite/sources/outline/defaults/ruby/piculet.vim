@@ -35,7 +35,7 @@ function! s:outline_info.create_heading(which, heading_line, matched_line, conte
     let l:lnum = a:context.heading_lnum
 
     let l:heading.level = s:util.get_indent_level(a:context, l:lnum) + 3
-    let l:heading.word = substitute(a:heading_line, '\s*\%(do\|{\)\%(\s*|[^|]*|\)\=\s*$', '', '')
+    let l:heading.word = substitute(a:heading_line, '\v\s*(do|\{)(\s*|[^|]*)\s*$', '', '')
 
     if match(l:heading.word, '\v^\s*security_group\s*') > -1
       let s:indent = matchlist(a:context.lines[l:lnum], '\v^(\s*)')[1]

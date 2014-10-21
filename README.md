@@ -10,7 +10,7 @@
 
 ## Usage
 
-```
+``` vim
 :setf ruby.piculet
 :Unite outline
 ```
@@ -19,7 +19,7 @@ defining `autocmd` or using modeline to set filetype to `ruby.piculet` is strong
 
 ## Example piculet file in the above screenshot
 
-```
+``` ruby
 # vim: ft=ruby.piculet
 
 ec2 do

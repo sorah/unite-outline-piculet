@@ -11,8 +11,11 @@
 ## Usage
 
 ```
-:Unite ghq
+:setf ruby.piculet
+:Unite outline
 ```
+
+defining `autocmd` or using modeline to set filetype to `ruby.piculet` is strongly recommended.
 
 ## Example piculet file in the above screenshot
 

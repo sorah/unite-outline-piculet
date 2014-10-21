@@ -1,6 +1,6 @@
 # unite-outline-piculet
 
-[unite-outline](https://github.com/Shougo/unite-outline) outline definition for [piculet](https://github.com/winebarrel/piculet); AWS Route 53 DSL.
+[unite-outline](https://github.com/Shougo/unite-outline) outline definition for [piculet](https://github.com/winebarrel/piculet); AWS EC2 security group DSL.
 
 ![](http://img.sorah.jp/2014-10-22_04-18-16_hvv1y.png)
 
